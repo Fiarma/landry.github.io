@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cours De Developpement Web</title>
+	<meta name="Author" CONTENT = "SOME Fiarma Landry">
+	<meta http-equiv="refresh" content="10; url = "Essai2.html">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div id="Menu" >
+		<ul>
+			<li><a href="#"> Accueil</a></li>
+			<li><a href="#"> A propos</a></li>
+				<ul>
+					<li><a href="#"> Cours</a></li>
+					<li><a href="#"> Devoirs</a></li>
+					<li><a href="#"> Composition</a></li>
+				</ul>
+			<li><a href="#"> Filiere</a></li>
+				<ul>
+					<li><a href="#"> Programme Sciences du Numerique</a></li>
+					<li><a href="#"> Programme Sciences Fondamentales</a></li>
+					<li><a href="#"> Programme Sciences Transversales</a></li>
+				</ul>
+				<li><a href="#"> Administration</a></li>
+				<ul>
+					<li><a href="#"> Direction</a></li>
+					<li><a href="#"> Agence Comptable</a></li>
+					<li><a href="#"> DRH</a></li>
+				</ul>	
+		</ul>
+	</div>
+	<h1>Le debut du cours de Developpement Web</h1>
+	<p>La rentre  des classes a deja commences et tout le monde, enfant, eleves comme etudiants regagnent le chemin de l'ecole</p>
+	<hr width="80%" size=" 10" align=" center">
+	<b><i><u><b><h1>Les langages informatiques</h1></b></u></i></b>
+	<p>Il existe deux types de langages en informatique</p>
+	
+	<g><ol type="I">
+		<u><b><li>Les langages de Programmation</li></b></u>
+		<p>On distingue egalement <s>deux</s> types de langages de programmation a <strike>savoir</strike> :</p>
+
+			<ol type="A">
+				<i><u><li>Les langages de haut niveau</li></u><br></i>
+					<ol>
+
+						<li type="">Le C</li>
+						<li>Python</li>
+						<li>Le C++</li>
+						<li>Java Script</li>
+					</ol><br>
+
+				<i><u><li>Les langages de bas niveau</li></u><br></i>
+					<ol>
+						<li>Le langage assembleur</li>
+						<li>Le langage binaire ou machine</li>
+
+					</ol>
+
+			</ol><br>
+
+		<b><U><li>Les langages de description</li></U></b>
+			<ol type="A"><br>
+				<li>HTml</li>
+				<li>CSS</li>
+			</ol>	
+	</ol></g>	
+
+	<u><b><i><h2 align="center">Definitions</h2></i></b></u>
+	<dl>
+		<dt>Le langage C</dt>
+			<dd>est un langage de programmation de haut niveau utitilise pour concevoir le systeme d'exploitation Unix</dd><br>
+		<dt>Python</dt>
+			<dd>est un langage de haut niveau utilisé dans de nombreux domaines informatique tels que le IA</dd><br>
+		<dt>HTML</dt>
+			<dd>est un langage de description utilisé pour la conception des pages et des sites web.</dd><br>
+		<dt>CSS</dt>
+			<dd>est utilisé pour<blink> la mise</blink> en forme des documents textes.</dd><br>
+	</dl>
+	<pre>
+		- SOME
+		- SOMDA
+		- OUEDRAOGO
+		-TRAORE
+	</pre>
+	<marquee direction ="right"></marquee>
+	<sub>A</sub>2<br>
+	<sup>X</sup>3<br><br>
+
+	<sub>B</sub>5
+	<p>Nous allons a present inserer du <strong>code</strong> dans <em>notre document texte</em></p>
+	<listing align ="center" bgcolor= red>
+		
+def deplacement_numero_page():
+
+
+    try:
+        Mot_Numero = int(input("Entrez le mot numero (taille memoire): "))
+
+        Taille_Page = int(input("Entrez la taille page / cadre : "))
+        print(f"Mot_Numero = {Mot_Numero}")
+        print()
+        print(f"Taille_Page = {Taille_Page}")
+
+
+
+
+
+    except ValueError:
+        print("Vous devez saisir uniquement des chiffres !")
+        return deplacement_numero_page()
+    #a = Mot_Numero + Taille_Page
+
+    Numero_Page = 0
+    Deplacement = Mot_Numero
+
+
+    while Deplacement >= Taille_Page:
+        Deplacement = Mot_Numero - Taille_Page
+        Numero_Page += 1
+        return  Deplacement, Numero_Page
+
+#deplacement_numero_page()
+    print(Deplacement)
+    print(Numero_Page)
+        #print(f"Deplacement = {Deplacement}")
+
+
+deplacement_numero_page()
+
+	</listing>
+&#169; 
+&reg; &#174;	
+<a href="https://univ-virtuelle.bf/">UV-BF</a><br>
+<a href="mailto: somefiarmalandry@gmail.com">Joignez-moi</a>
+<center>
+	<table border bgcolor="#ccffaa">
+		<caption>Compararatif modele economique</caption>
+		<th colspan="3">Modele
+		<th rowspan="2">Vitesse<br> en km/h
+		<th rowspan="2">Consommation<br>en litre/100km
+		<tr>
+			<th>Marque</th>
+			<th>Type</th>
+			<th>Numero de serie</th>
+		</tr>
+		<tr>
+			<td>Peugeot 106</td>
+			<td>B2</td>
+			<td align = middle>234,34</td>
+			<td>132</td>
+			<td>5,7</td>
+		</tr>
+		<tr>
+			<td>Citroenn AX</td>
+			<td>AT67B8</td>
+			<td align="middle">6789</td>
+			<td>126</td>
+			<td>5,5</td>
+		</tr>
+		
+	</table>
+</center><br><br>
+<h3>Informations personnelles</h3><br>
+<form action="" method="post">
+	Date du jour: <input type="datetime" name="date">
+	Nom : <input type="nom" name="username" placeholder="Entrez votre nom !"><br><br>
+	Prenom : <input type="Prenom" name="username" placeholder="Entrez votre prenom !"><br>
+	Contact : <input type="Contact" name="" placeholder="Entrez votre numero"><br><br><br>
+	Adresse : <input type="texte" name="Adresse" placeholder="Entrez votre Adresse mail"><br><br>
+	Genre : <input type="radio" name="Homme">Homme<input type="radio" name="Femme">Femme<br><br>
+
+		  
+	 Nationalite : <select name="option">
+	 	<option>Burkinabe</option>
+	 	<option>Malien</option>
+	 	<option>Senegalais</option>
+	 	<option>Nigerian</option>
+	 	
+	 </select><br><br>
+	Mot de passe : <input type="texte" name="password"><br><br>
+					<input type="reset" name="" value="Effacer">
+					<input type="submit" name="" value="Se connecter"><br><br>
+
+	Progression : <input type="range" name="Evolution" min="o" max="100" step="0,5"><br><br>
+
+	<p>Veuillez choisir votre filiere</p><br><br>
+	<select>
+		<option>Science du Numerique</option>
+		<option>Sciences Transversales</option>
+		<option>Sciences Fondamentales</option>
+	</select>
+
+
+
+
+
+	
+</form>
+<fieldset width = 10000>
+	<legend>SOME && DERRA</legend>
+	<select>
+		<optgroup label="Sciences Du Numerique">
+			<option value="Genie Logicel">Genie Logicel</option>
+			<option value="Reseaux Informations">Reseaux Informations</option>
+			<option value="Intelligence Artificielle">Intelligence Artificielle</option>
+			
+		</optgroup>
+			<optgroup label="Sciences Transversales">
+				<option value="Geomatique">Geomatique</option>
+				<option value="Teledetection spatiale">Teledetection spatiale</option>
+				
+			</optgroup>
+				<optgroup label="Sciences Fondamentales">
+					<option value="Mathematiques">Mathematiques</option>
+					<option value="Svt">Svt</option>
+					<option value="Physique">Physique</option>
+					<option value="Chimie">Chimie</option>
+					
+				</optgroup>
+	</select>
+</fieldset>
+<details>
+	<p>Aujord'hui</p>
+	<p>Demain</p>
+	<p>Apres demain</p>
+	<p>Samedi</p>
+</details><BR><BR>
+<table border="1" width="500">
+	<TH COLSPAN ="1"</TH>ALI
+	<TH ROWSPAN ="1"</TH>PAUL
+	<TH ROWSPAN ="1"</TH>KARIM
+	<TH ROWSPAN ="1"</TH>MARIAM
+
+	<TR>
+		<TD>PAULINE</TD>
+		<TD>MOUSSAE</TD>
+		<TD>JEAN</TD>
+		<TD>TOT</TD>
+
+	</TR><br>
+
+</table><b><br></b>
+
+<a href="TD 3.html">Page precedente</a>
+
+</body>
+</html>

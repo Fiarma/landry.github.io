@@ -1,0 +1,40 @@
+#menu ul
+{
+	padding: 0;
+	margin: 0;
+	line-height: 30px;
+}
+
+#menu li
+{
+	list-style-type: none;
+	float: left;
+	position: relative;
+}
+
+
+#menu ul li a
+{
+	color: #000;
+	test-decoration: none;
+	width: 140px;
+	height:100px;
+	display: block;
+	text-align: center;
+	border: 1px solid #000
+}
+#menu ul ul
+{
+	position: absolute;
+	top: 30px;
+	visibility: hidden;
+}
+
+#menu ul li:hover  ul
+{
+	visibility: visible;
+	background-color: #ggg;
+	
+}
+
+
